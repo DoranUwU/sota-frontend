@@ -1,0 +1,15 @@
+{
+  "name": "sota-museum-admin-mock",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && vitest run"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.0"
+  }
+}

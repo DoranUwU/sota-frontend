@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "none",
+    "strict": true,
+    "types": [],
+    "lib": ["ES2020", "DOM"]
+  },
+  "files": ["mock.ts"]
+}
